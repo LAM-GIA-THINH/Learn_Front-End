@@ -1,0 +1,86 @@
+body {
+    margin: 20px;
+    /*
+    Thử thách:
+    Tìm một font chữ an toàn trên web mà bạn thích, 
+    và thêm nó vào thẻ của bạn.
+    */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%; /* Bo tròn ảnh đại diện */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+    display: block; /* Chuyển ảnh sang dạng block để dễ căn chỉnh */
+    margin: 0 auto; /* Căn giữa ảnh bằng cách đặt lề tự động */    
+}
+
+.card {
+    width: 400px;
+    margin: 50px auto; /* Căn giữa thẻ danh thiếp */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Thay đổi bố cục từ ngang sang dọc */
+    justify-content: space-around;
+    text-align: center;
+        /*
+    Thử thách:
+    Tìm một bảng màu bạn thích trên Coolors.co
+    và sử dụng nó trong thẻ danh thiếp của bạn.
+    */
+    background: rgb(255, 245, 106);
+    color: rgb(255, 61, 47);
+    border-bottom: 6px solid rgb(247, 84, 247);
+    border-radius: 15px; /* Bo tròn đường viền */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng hover */        
+
+}
+
+.card:hover {
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Tăng hiệu ứng bóng khi hover */
+}
+
+.border-blue {
+    border: 1px dashed blue; /* Đổi kiểu đường viền */
+}
+
+/* Hoạt ảnh tiêu đề */
+.card h3 {
+    margin: 10px 0 5px; /* Khoảng cách trên và dưới tiêu đề */
+    font-size: 1.5rem;
+    color: rgb(255, 61, 47); /* Màu chữ đậm */
+    animation: text-fade 2s infinite; /* Hoạt ảnh tiêu đề */
+}
+
+@keyframes text-fade {
+    0% {
+        color: rgb(255, 61, 47);
+        transform: scale(1);
+    }
+    50% {
+        color: rgb(247, 84, 247);
+        transform: scale(1.1);
+    }
+    100% {
+        color: rgb(255, 61, 47);
+        transform: scale(1);
+    }
+}
+
+
+
+/*
+Mục tiêu nâng cao:
+Tìm các cách khác để cá nhân hóa thiết kế 
+thẻ danh thiếp của bạn, ví dụ:
+- thay đổi đường viền
+- thêm bo tròn cho viền
+- thay đổi bố cục
+- hiệu ứng bóng        🤯
+- hiệu ứng hover       🤯🤯
+- hoạt ảnh             🤯🤯🤯
+*/

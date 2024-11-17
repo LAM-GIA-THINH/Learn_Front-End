@@ -1,0 +1,18 @@
+body {
+    margin: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+article {
+    text-align: center;
+}
+
+/*
+Thử thách:
+Dùng Stack Overflow và chọn một 
+một số thuộc tính CSS được kế thừa. Thay chúng vào article text-align 
+để xem chúng hoạt động như thế nào.
+*/

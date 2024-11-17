@@ -1,0 +1,13 @@
+body {
+    margin: 20px;
+}
+
+/*
+Thử thách:
+Đặt chiều rộng của hình ảnh thành 200px.
+PS: Sử dụng một class để chọn phần tử img.
+*/
+
+.avatar{
+    width:200px;
+}

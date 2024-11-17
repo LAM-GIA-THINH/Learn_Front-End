@@ -1,0 +1,25 @@
+body {
+    margin: 20px;
+}
+
+.avatar{
+    width:200px;
+}
+
+.card {
+    /*
+    Thử thách:
+    Cung cấp cho thẻ chiều rộng 400px và căn giữa nó.
+    */
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.border-blue {
+    border: 1px dotted blue;
+}

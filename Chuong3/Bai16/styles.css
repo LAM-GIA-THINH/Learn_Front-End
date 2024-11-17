@@ -1,0 +1,29 @@
+body {
+    margin: 20px;
+}
+
+.avatar{
+    width:200px;
+}
+
+.card {
+    width: 400px;
+    /* 
+    Thử thách:
+    Thay thế hai thuộc tính margin bằng một 
+    margin viết tắt.
+    */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #2b2839;
+    background: #ddebf8;
+    border-bottom: 6px solid #d8cefe;
+}
+
+
+.border-blue {
+    border: 1px dotted blue;
+}

@@ -1,0 +1,32 @@
+/*
+Thử thách:
+Căn giữa văn bản trong các phần tử <p> và <h4>.
+
+Lưu ý: bạn chỉ nên thêm MỘT thuộc tính kế thừa 
+nên chú ý áp dụng nó cho cả hai yếu tố.
+*/
+body {
+    margin: 20px;
+}
+
+.avatar{
+    width:200px;
+}
+
+.card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #2b2839;
+    background: #ddebf8;
+    border-bottom: 6px solid #d8cefe;
+}
+
+
+.border-blue {
+    border: 1px dotted blue;
+}
