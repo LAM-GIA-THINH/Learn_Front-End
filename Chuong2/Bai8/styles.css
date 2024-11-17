@@ -1,0 +1,29 @@
+body {
+    margin:0;
+}
+
+.red {
+    background: #c71226;
+    height: 100px;
+/*  Thử thách 1:
+    Thêm margin 100px ở dưới cùng của hộp màu đỏ. */
+    /* margin-bottom: 100px; */
+    
+}
+
+.blue {
+    background: #0d1b88;
+    height: 100px;
+
+/*  Thử thách 2: 
+    Tạo lá cờ của Gambia.
+    Nhưng chỉ bằng cách áp dụng kiểu cho hộp màu xanh! */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.green {
+    background: #397327;
+    height: 100px;
+}
+

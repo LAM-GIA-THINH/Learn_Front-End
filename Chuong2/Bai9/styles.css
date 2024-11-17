@@ -1,0 +1,21 @@
+/*
+Thử thách: 
+Thêm một số khoảng trống giữa logo 
+và trường tìm kiếm.
+
+*/
+
+.main {
+    margin-top: 100px;
+}
+
+.google-img {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.search {
+    display: block;
+    width: 400px;
+}

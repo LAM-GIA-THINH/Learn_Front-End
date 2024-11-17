@@ -1,0 +1,14 @@
+/*
+Thử thách: 
+Biến các phần tử thành các khối!
+*/
+
+input {
+    display: block;
+    width: 400px;
+}
+
+img {
+    display: block;
+    width:300px;
+}

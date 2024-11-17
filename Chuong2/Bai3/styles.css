@@ -1,0 +1,12 @@
+/*
+Thử thách:
+Chọn tag img và đặt chiều rộng 300px.
+*/
+
+input {
+    width: 400px;
+}
+
+img {
+    width:300px;
+}

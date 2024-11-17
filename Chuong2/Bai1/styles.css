@@ -1,0 +1,15 @@
+/* 
+Thử thách:
+Thiết kế lại trang cookie!
+PS: Hãy thay đổi giá trị của tất cả các phần từ dưới.
+*/
+
+body {
+    background: skyblue;     /* red, blue, yellow, v.v */
+    color: white;             /* red, blue, yellow, v.v */
+    font-size: 20px;        /* 0px - 100px và hơn nữa */
+    font-weight: lighter;   /* lighter, normal, bold  */
+    text-align: right;      /* left, center hoặc right  */ 
+    margin-top: 5px;        /* Từ 0px tở lên   */
+}
+

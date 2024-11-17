@@ -1,0 +1,15 @@
+input {
+    display: block;
+    width: 400px;
+}
+
+img {
+    /* Thử thách: 
+    Thêm một số khoảng trống (margin) phía trên hình ảnh!
+    Bạn có nhớ cách chúng ta thêm khoảng cách trong 
+    ví dụ về cookie?
+    */
+    margin-top: 100px;
+    display: block;
+    width:300px;
+}

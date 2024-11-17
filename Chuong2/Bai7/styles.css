@@ -1,0 +1,15 @@
+.main {
+    margin-top: 100px;
+}
+
+/* Thử thách - phần 2: 
+Thay thế bộ chọn phần tử bằng bộ chọn lớp */
+.google-img {
+    display: block;
+    width: 300px;
+}
+
+.search {
+    display: block;
+    width: 400px;
+}
