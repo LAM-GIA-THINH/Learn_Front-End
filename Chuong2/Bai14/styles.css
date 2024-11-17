@@ -1,0 +1,22 @@
+/* 
+Thử thách: 
+Làm cho nút trông giống nút "Đang theo dõi" của Twitter!
+(Trừ font chữ)
+
+Gợi ý:
+màu viền: #cfd9de
+màu văn bản: #0f1419
+Hãy nhớ trọng lượng phông chữ!
+*/
+button{
+    color: #0f1419;
+    border: 1px solid #cfd9de;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
