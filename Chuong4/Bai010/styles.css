@@ -1,0 +1,41 @@
+/*
+Thử thách:
+Wrap phần "anh hùng" (tiêu đề, nút, logo) trong <div>
+và đặt hình nền của nó thành hình ảnh thiên hà. Điều này sẽ 
+buộc bạn cũng phải thêm một số phần padding vào "hero" <div>.
+
+Thêm "Điều khoản và điều kiện áp dụng" <h3> bên dưới "hero".
+
+PS: bố cục của bạn có thể sẽ bị <body> làm lệch 
+bởi margin mặc định của thẻ.
+*/
+body {
+    margin: 0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+#logo {
+    width: 200px;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    color: #82a5ca;
+    font-weight: 800;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+   
