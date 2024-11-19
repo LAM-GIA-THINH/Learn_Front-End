@@ -1,0 +1,24 @@
+/*
+Thử thách:
+Tạo kiểu cho theo thiết kế được cung cấp.
+Font chữ này có tên là "Happy Monkey" và có thể
+được nhúng thông qua Google Fonts.
+
+Bạn không biết làm thế nào để làm cho hình ảnh tròn? Google nó!
+Ngoài ra, hãy cân nhắc cách bạn nên chọn hình ảnh 
+(class so với id và bộ chọn phần tử).
+*/
+body{
+    font-family: Happy Monkey, cursive;
+    text-align: center;
+}
+#circle-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h4{
+    margin-top: 0px;
+}

@@ -1,0 +1,32 @@
+.container {
+    border: 8px solid #016a26;
+    height: 360px;
+    /*
+    /*
+    Thử thách:
+    Tuân theo mệnh lệnh của tôi
+    hãy đặt lại thiết bị phòng thí nghiệm!
+    khi chỉnh direction thành column thì justifycontent và align item đổi cách vận hành cho nhau
+    1. Đặt trồng lên nhau và ở giữa lề trái
+    2. Đặt trồng lên nhau và lề trái và có khoảng cách
+    3. Đặt trồng lên nhau và căn giữa ở lề trên
+    */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: start; */
+    /* justify-content: space-between;
+    align-items: end; */
+    justify-content: start;
+    align-items: center;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+}
