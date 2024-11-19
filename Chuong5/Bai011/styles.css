@@ -1,0 +1,18 @@
+a {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 25px 0;
+    background-color: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+a:hover {
+    background-image: url("eyes.png");
+    background-size: contain; /* Điều chỉnh kích thước hình ảnh để vừa với phần tử */
+    background-repeat: no-repeat; /* Ngăn hình ảnh lặp lại */
+    background-position: center; /* Căn giữa hình ảnh trong phần tử */    
+}
