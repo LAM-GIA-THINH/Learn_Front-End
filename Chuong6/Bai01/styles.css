@@ -1,0 +1,114 @@
+/**
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(136, 211, 255);
+}
+
+
+#hero {
+    background-image: url("./media/images/danang.jpg");
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: top; /* Centers the image */
+    height: 800px; /* Adjust this value based on the desired height */
+    width: 100%; /* Makes the section span the full width of the viewport */
+    display: flex; /* Use flexbox for aligning content */
+    flex-direction: column;
+    justify-content: center; /* Vertically center the text */
+    align-items: center; /* Horizontally center the text */
+    color: white;
+    text-shadow: 0px 0px 1px black; 
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding doesn’t affect overall width/height */
+    font-size: larger;
+}
+
+#top-title {
+    background: #FF6F61;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 25px 0 10px 0;
+}
+
+#sub-title {
+    margin: 20px 0 0 0;
+    background: #002855;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 830px;
+}
+
+h3{
+    font-size: 40px;
+    color: #002855;
+}
+
+.circle-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0px solid black;
+    box-shadow: 6px 7px 10px black;
+}
+
+#centered{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 80%; /* Reduce this value as needed */
+    margin: 70px auto auto auto ; /* Center the container */
+}
+
+.subtext-size{
+    height:200px;
+    width: 350px;
+}
+
+.location-title{
+    color:#002855;
+}
+
+.card {
+    width: 700px;
+    margin: 50px auto; /* Căn giữa thẻ danh thiếp */
+    padding: 20px;
+    display: flex;
+    flex-direction: row; /* Thay đổi bố cục từ ngang sang dọc */
+    justify-content: space-between;
+    text-align: center;
+    background: #FF6F61;
+    color: white;
+    font-weight: bold;
+    border-bottom: 6px solid #002855;
+    border-radius: 15px; /* Bo tròn đường viền */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng hover */        
+
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding: 0 0 20px 20px;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+    display: block; /* Chuyển ảnh sang dạng block để dễ căn chỉnh */
+    margin: 0 auto; /* Căn giữa ảnh bằng cách đặt lề tự động */    
+}
