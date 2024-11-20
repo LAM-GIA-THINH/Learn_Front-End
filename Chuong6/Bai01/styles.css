@@ -1,34 +1,25 @@
-/**
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
     margin: 0;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(136, 211, 255);
+
 }
 
 
 #hero {
     background-image: url("./media/images/danang.jpg");
-    background-size: cover; /* Ensures the image covers the entire area */
-    background-position: top; /* Centers the image */
-    height: 800px; /* Adjust this value based on the desired height */
-    width: 100%; /* Makes the section span the full width of the viewport */
-    display: flex; /* Use flexbox for aligning content */
+    background-size: cover; /* Đảm bảo ảnh che hết */
+    background-position: top; /* căn ảnh */
+    height: 800px; 
+    width: 100%;
+    display: flex; 
     flex-direction: column;
-    justify-content: center; /* Vertically center the text */
-    align-items: center; /* Horizontally center the text */
+    justify-content: center;
+    align-items: center; 
     color: white;
     text-shadow: 0px 0px 1px black; 
     padding: 10px;
-    box-sizing: border-box; /* Ensures padding doesn’t affect overall width/height */
+    box-sizing: border-box; /* đảm bảo padding ko ảnh hướng đến chiều dài, cao */
     font-size: larger;
 }
 
@@ -50,6 +41,7 @@ body {
 h3{
     font-size: 40px;
     color: #002855;
+    margin: 0;
 }
 
 .circle-img{
@@ -58,15 +50,16 @@ h3{
     border-radius: 50%;
     object-fit: cover;
     border: 0px solid black;
-    box-shadow: 6px 7px 10px black;
+    box-shadow: 5px 6px 15px black;
+    
 }
 
 #centered{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    width: 80%; /* Reduce this value as needed */
-    margin: 70px auto auto auto ; /* Center the container */
+    width: 80%;
+    margin: 70px auto auto auto ; /* căn giữa */
 }
 
 .subtext-size{
@@ -79,7 +72,7 @@ h3{
 }
 
 .card {
-    width: 700px;
+    width: 680px;
     margin: 50px auto; /* Căn giữa thẻ danh thiếp */
     padding: 20px;
     display: flex;
@@ -111,4 +104,15 @@ h3{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
     display: block; /* Chuyển ảnh sang dạng block để dễ căn chỉnh */
     margin: 0 auto; /* Căn giữa ảnh bằng cách đặt lề tự động */    
+}
+
+#div-height{
+    height: 400px;
+    background-color: rgb(136, 211, 255);
+    padding: 50px 0 200px 0;
+}
+
+#div-height2{
+    height: 400px;
+    padding: 50px 0 200px 0;
 }
