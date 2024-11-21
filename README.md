@@ -8,7 +8,7 @@ Tổng cộng 40+ chương
 - Chương 5: Tạo trang thiệp sinh nhật ✅
 - Chương 6: Tạo dự án riêng ✅
 - Chương 7: Tạo ứng dụng đếm số hành khách ✅
-- Chương 8: Thử thách Javascript phần 1
-- Chương 9: Thiết lập môi trường
+- Chương 8: Thử thách Javascript phần 1 ✅
+- Chương 9: Tạo game Blackjack
 - Chương n: ...
 
