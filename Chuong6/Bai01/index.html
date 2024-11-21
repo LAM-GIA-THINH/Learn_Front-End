@@ -5,6 +5,9 @@ Dùng class, flexbox, background image, color palette -->
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     </head>
     <body>
         
@@ -16,7 +19,7 @@ Dùng class, flexbox, background image, color palette -->
         
         <!-- PHẦN HOẠT ĐỘNG -->
         <div id="div-height">
-            <h3>Top 3 hoạt động không thể bỏ lỡ tại Đà Nẵng</h3>
+            <h3 id="h3-text-size">Top 3 hoạt động không thể bỏ lỡ tại Đà Nẵng</h3>
             <div id="centered">
                 <div>
                     <img src="./media/images/bana_hills.jpg"  class="circle-img" alt="Ba Na Hills">
@@ -38,14 +41,43 @@ Dùng class, flexbox, background image, color palette -->
 
         <!-- PHẦN HƯỚNG DẪN -->
         <div id="div-height2">
-            <h3>Hướng dẫn viên của bạn</h3>
+            
             <div class="card" >
+                
                 <img class="avatar" src="./media/images/elliot-.jpg" alt="Nguyễn Văn An">
                 <div class="card-content" >
+                    <h3 id="card-title-size">Hướng dẫn viên của bạn</h3>
                     <p>"Tôi đã sống tại Đà Nẵng hơn 20 năm, tôi sẽ đưa bạn khám phá những điểm đến đẹp nhất và các bí mật ẩn giấu tại đây."</p>
                     <h4>Elliot Alderson</h4>
                 </div>
             </div>
         </div>
     </body>
+    <!-- PHẦN FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Liên hệ</h3>
+            <p>Email: contact@danangexplore.com</p>
+            <p>Điện thoại: +84 123 456 789</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><img src="./media/icons/facebook.png" alt="Facebook"></a>
+                <a href="#" aria-label="Instagram"><img src="./media/icons/instagram.png" alt="Instagram"></a>
+                <a href="#" aria-label="Twitter"><img src="./media/icons/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Vị trí</h3>
+            <p>Đà Nẵng, Việt Nam</p>
+            <p>123 Đường Đại Lộ, Quận Hải Châu</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Khám phá Đà Nẵng. Bảo lưu mọi quyền.</p>
+    </div>
+</footer>
+
 </html>
