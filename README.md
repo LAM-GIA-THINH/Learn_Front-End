@@ -6,7 +6,7 @@ Tổng cộng 40+ chương
 - Chương 3: Tạo trang danh thiếp ✅
 - Chương 4: Tạo trang khám phá vũ trụ ✅ 
 - Chương 5: Tạo trang thiệp sinh nhật ✅
-- Chương 6: Tạo dự án riêng
+- Chương 6: Tạo dự án riêng ✅
 - Chương 7: Tạo ứng dụng đếm số hành khách
 - Chương n: ...
 
