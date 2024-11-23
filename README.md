@@ -9,6 +9,7 @@ Tổng cộng 40+ chương
 - Chương 6: Tạo dự án riêng ✅
 - Chương 7: Tạo ứng dụng đếm số hành khách ✅
 - Chương 8: Thử thách Javascript phần 1 ✅
-- Chương 9: Tạo game Blackjack
-- Chương n: ...
-
+- Chương 9: Tạo game Blackjack ✅
+- Chương 10: Thử thách Javascript phần 2 
+- Chương 11: Tạo extention cho chrome
+- Chương  n: ...
