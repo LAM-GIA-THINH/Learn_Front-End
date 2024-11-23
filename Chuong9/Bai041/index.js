@@ -1,6 +1,15 @@
-// Lấy số tự nhiên từ 1 - 13
+//Hoàn thành hàm
 function getRandomCard() {
-    return Math.floor( Math.random()*13 ) + 1 // 1-13
+    // if 1     -> return 11
+    // if 11-13 -> return 10
+    let randomNumer = Math.floor( Math.random()*13 ) + 1
+    if (randomNumer > 10) {
+        return 10
+    } else if (randomNumer === 1) {
+        return 11
+    } else {
+        return randomNumer
+    }
 }
 
 let firstCard = getRandomCard()  

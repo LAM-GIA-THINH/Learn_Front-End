@@ -19,19 +19,19 @@ function startGame() {
 }
 
 function renderGame() {
-    cardsEl.textContent = "Cards: "
+    cardsEl.textContent = "Thẻ bài: "
     for (let i = 0; i < cards.length; i++) {
         cardsEl.textContent += cards[i] + " "
     }
-    
-    sumEl.textContent = "Sum: " + sum
+
+    sumEl.textContent = "Tổng: " + sum
     if (sum <= 20) {
-        message = "Do you want to draw a new card?"
+        message = "Bạn có muốn rút thêm thẻ bài không?"
     } else if (sum === 21) {
-        message = "You've got Blackjack!"
+        message = "Bạn đã có Blackjack!"
         hasBlackJack = true
     } else {
-        message = "You're out of the game!"
+        message = "Bạn đã thua!"
         isAlive = false
     }
     messageEl.textContent = message

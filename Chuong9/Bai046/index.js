@@ -1,22 +1,32 @@
-// Lấy số tự nhiên từ 1 - 13
-function getRandomCard() {
-    return Math.floor( Math.random()*13 ) + 1 // 1-13
-}
-
-let firstCard = getRandomCard()  
-let secondCard = getRandomCard() 
-let cards = [firstCard, secondCard]
-let sum = firstCard + secondCard
+let cards = []
+let sum = 0
 let hasBlackJack = false
-let isAlive = true
+let isAlive = false
 let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
+function getRandomCard() {
+    let randomNumer = Math.floor( Math.random()*13 ) + 1
+    if (randomNumer > 10) {
+        return 10
+    } else if (randomNumer === 1) {
+        return 11
+    } else {
+        return randomNumer
+    }
+}
+
 function startGame() {
+    isAlive = true
+    let firstCard = getRandomCard();
+    let secondCard = getRandomCard();
+    cards = [firstCard,secondCard];
+    sum = firstCard + secondCard;
     renderGame()
 }
+
 
 function renderGame() {
     cardsEl.textContent = "Thẻ bài: "
@@ -38,9 +48,12 @@ function renderGame() {
 }
 
 function newCard() {
-    let card = getRandomCard()
-    sum += card
-    cards.push(card)
-    console.log(cards)
-    renderGame()
+    // Chỉ cho phép người chơi rút lá bài mới nếu họ ĐANG còn trong game và KHÔNG có Blackjack
+    if(isAlive === true && hasBlackJack === false ){
+        let card = getRandomCard();
+        sum += card;
+        cards.push(card);
+        renderGame();
+    }
+    
 }
