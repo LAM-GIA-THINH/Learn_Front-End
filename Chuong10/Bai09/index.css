@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: #1e2a38;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h1 {
+    margin-bottom: 1%;
+}
+p {
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+
+span{
+    color: #47e182;
+
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #555555;
+    margin: 40px 0;
+    width:500px;
+}
+#centered{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center; 
+    text-align: left;
+    margin-top: 100px;
+    padding-left: 38%; 
+}
+
+
+
+#btn-gen{
+    height: 40px;
+    background-color: #0eba82;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: light;
+    padding: 8px 20px 15px 20px;
+    cursor: pointer;
+}
+
+.pass{
+    height: 40px;
+    width: 220px;
+    background-color: #263548;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: light;
+    padding: 8px 20px 15px 20px;    
+    margin-right: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-between;
+    width: 51%; 
+}
