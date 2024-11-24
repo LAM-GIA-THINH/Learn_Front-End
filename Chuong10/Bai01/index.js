@@ -5,7 +5,7 @@
 // để tạo ra một chuỗi theo định dạng sau:
 // "Elliot năm nay 22 tuổi và sống ở Mỹ"
 
-// Gọi hàm logData() để kiểm tra xem nó hoạt động đúng không.
+// Gọi hàm logData() để kiểm tra xem nó hoạt động đúng không
 let person = {name: "Elliot",
     age: 22,
     country: "Hoa Kỳ"
