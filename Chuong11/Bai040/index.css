@@ -17,12 +17,17 @@ button {
     background: #5f9341;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #5f9341;
     font-weight: bold;
 }
 
+/* Thiết kế */
 
-/* Thiết kế giao diện */
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
 ul {
     margin-top: 20px;
     list-style: none;
@@ -36,3 +41,5 @@ li {
 a {
     color: #5f9341;
 }
+
+
