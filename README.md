@@ -12,6 +12,6 @@ Tổng cộng 40+ chương
 - Chương 9: Tạo game Blackjack ✅
 - Chương 10: Thử thách Javascript phần 2 ✅  
 - Chương 11: Tạo extention cho chrome ✅
-- Chương 12: Thử thách Javascript phần 3
+- Chương 12: Thử thách Javascript phần 3 ✅
 - Chương 13: Xây dựng ứng dụng điện thoại
 - Chương n: ...
