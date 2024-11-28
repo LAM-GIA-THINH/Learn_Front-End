@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    width: 900px;
+    margin: 0 auto 50px;
+    line-height: 1.5;
+    color: #333333;
+}
+strong {
+    color: #0907a4;
+}
+a {
+    color: #0907a4;
+    text-decoration-color: #d172cb;
+}
+
+/* Phần Hero */
+.hero-section {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+.hero-heading {
+    font-size: 96px;
+    color: #0907a4;
+}
+.hero-text {
+    font-size: 20px;
+    color: #333333;
+    position: absolute;
+    width: 260px;
+    right: 0;
+    top: 260px;
+}
+.hero-image {
+    width: 400px;
+    z-index: 10;
+    position: absolute;
+    left: 250px;
+    top: -50px;
+}
+
+/* Nội dung chính */
+.astronaut-section, .chair-section, .cubes-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.astronaut-section p, .chair-section p, .cubes-section p {
+    width: 340px;
+}
+.astronaut-section p, .cubes-section p {
+    text-align: right;
+}
+.chair-section {
+    flex-direction: row-reverse;
+}
+.image {
+    width: 400px;
+    padding: 40px;
+}
+
+/* 
+Thử thách: Cập nhật các liên kết của chúng ta sao cho đáp ứng các yêu cầu sau:
+1. Các liên kết có thể được nhận diện là liên kết không chỉ dựa vào màu sắc.
+2. Văn bản liên kết không mơ hồ, tức là các liên kết phải rõ ràng ngay cả khi không có ngữ cảnh.
+*/
