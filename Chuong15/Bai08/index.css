@@ -1,0 +1,53 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+    margin:0;
+}
+
+/*  
+Thử thách:  
+1. Thiết lập màu sắc cho liên kết trong đoạn văn.  
+2. Làm cho màu sắc của liên kết thay đổi khi di chuột (hover) và ở trạng thái hoạt động (active).  
+3. Tìm kiếm trực tuyến để biết cách làm cho gạch dưới của liên kết hiển thị dưới dạng đường chấm.  
+*/  
+a{
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+a:hover{
+    color: #d4b44c;
+}
+
+a:active{
+    color: #d4b44c;
+}
+section{
+    padding: 45px 0;
+}
+
+.main-image{
+    width: 100%;
+}

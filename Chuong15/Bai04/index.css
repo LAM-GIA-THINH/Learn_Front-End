@@ -1,0 +1,31 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+/* 
+Thử thách:
+1. Tạo một selector cho thẻ "header".
+2. Đặt màu nền cho thẻ header.
+3. Cần sử dụng thuộc tính CSS nào để loại bỏ khoảng trắng khó chịu ở phía trên? Đặt giá trị của thuộc tính này là 45px cho cả trên và dưới.
+4. Tạo các selector cho các phần tử h1 và h3.
+5. Gán các margin, kích thước và màu sắc thích hợp cho h1 và h3.
+Cuối cùng của thử thách, h1 và h3 sẽ vẫn sát vào lề trái của trình duyệt. Điều này là chấp nhận được vào lúc này.
+*/
+header{
+    background-color: #5f29a3;
+    padding: 45px 0px;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+    margin: 0;
+}

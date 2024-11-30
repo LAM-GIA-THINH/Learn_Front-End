@@ -1,0 +1,39 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #5f29a3;
+    padding: 45px 0px;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+    margin: 0;
+}
+/* 
+Thử thách:
+1. Tạo một selector cho thẻ "section" và gán nó với 
+   padding giống như header.
+2. Trong index.html, tìm hình ảnh của đôi sneaker màu tím 
+   và gán một class cho nó.
+3. Đảm bảo rằng hình ảnh này chiếm 100% 
+   chiều rộng của section.
+*/
+section{
+    padding: 45px 0;
+}
+
+.main-image{
+    width: 100%;
+}
