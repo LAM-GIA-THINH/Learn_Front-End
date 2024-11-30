@@ -1,0 +1,66 @@
+body{
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .45px
+}
+
+h2{
+    margin-top: 0;
+    font-size: 28px;
+    color: #d43435;
+}
+
+p{
+    font-size: 14px;
+    margin: 0;
+}
+/* Block Elements (Phần tử khối)
+Xếp chồng lên nhau.
+div, p, h1 đều là ví dụ về các phần tử khối.
+Có thể thiết lập chiều cao và khoảng cách trên/dưới (margin top và bottom). ✅
+
+Inline Elements (Phần tử nội dòng)
+Sắp xếp cạnh nhau.
+span và a là ví dụ về các phần tử nội dòng.
+Không thể thiết lập chiều cao và khoảng cách trên/dưới (margin top và bottom). ❌
+
+Inline-block Elements (Phần tử nội dòng-khối)
+Sắp xếp cạnh nhau.
+button và input là ví dụ về các phần tử nội dòng-khối.
+Có thể thiết lập chiều cao và khoảng cách trên/dưới (margin top và bottom). ✅ */
+/*
+Thử thách:
+1. Đặt thuộc tính display của 
+   các liên kết thành inline-block.
+*/
+
+a{
+    padding: 10px 19px;
+    border-radius: 4px;
+    background-color: #fff200;
+    background-color: gold;
+    font-size: 14px;
+    cursor: pointer;
+    color: #1d1e22;
+    border: none;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+} 
+
+.ad-container{
+    border: 1px solid darkgoldenrod;
+    padding: 20px 50px;
+    width: 560px;
+    height: 200px;
+    background-color: #1d1e22;
+    background-image: url('images/ferrari2.jpg');
+    background-repeat: no-repeat;
+    background-position: 0%;
+    margin: 50px auto;
+}
+
+.text-container{
+    width: 290px;
+    margin: 30px 0 0 310px;
+}

@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    color: #333;
+    font-family: 'Roboto';
+}
+
+section, .ad-container{
+    padding: 20px;
+}
+
+.ad-container{
+    border: 3px solid midnightblue;
+    border-radius: 4px;
+}
+
+.links-container{
+    padding: 20px;
+}
+
+h2, h4{
+    color: midnightblue;
+}
+
+h2{
+    margin: 0;
+}
+
+h4{
+    margin-bottom:0px
+}
+
+ul{
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+/*
+Thử thách: 
+1. Xem qua HTML và các bộ chọn phức hợp mới 
+   trong CSS bên dưới và đoán xem danh sách 
+   "key requirements" sẽ có màu gì.
+*/
+
+section .ad-container #req-list ul li {
+    color: green; /*113*/
+}
+
+body section .ad-container div .general-list li{
+    color: red; /*24*/
+}
+
+button{
+    padding: 10px 19px;
+    color: midnightblue;
+    font-weight: bold;
+    background-color: skyblue;
+    border-radius: 4.6px;
+    border: 3px solid midnightblue;
+}
+
+a{
+    margin: 10px;
+}
+
+.ad-container a{
+    color: limegreen;
+    font-size: 18px;
+}
+
+.links-container a{
+    color: dodgerblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links-container a:hover{
+    color: fuchsia;
+}
+
+
+

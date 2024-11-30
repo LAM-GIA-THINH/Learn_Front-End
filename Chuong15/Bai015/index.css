@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    color: #333;
+    font-family: 'Roboto';
+}
+
+section, .ad-container{
+    padding: 20px;
+}
+
+.ad-container{
+    border: 3px solid midnightblue;
+    border-radius: 4px;
+}
+
+.links-container{
+    padding: 20px;
+}
+
+h2, h4{
+    color: midnightblue;
+}
+
+h2{
+    margin: 0;
+}
+
+h4{
+    margin-bottom:0px
+}
+
+ul{
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+button{
+    padding: 10px 19px;
+    color: midnightblue;
+    font-weight: bold;
+    background-color: skyblue;
+    border-radius: 4.6px;
+    border: 3px solid midnightblue;
+}
+
+a{
+    margin: 10px
+}
+
+.ad-container a{
+    color: limegreen;
+    font-size: 18px;
+}
+
+/*
+Thử thách:
+1. Tạo một bộ chọn phức hợp để 
+   nhắm đến các liên kết (anchor links) 
+   bên trong lớp "links-container".
+2. Đặt màu của chúng thành dodgerblue.
+3. Thiết lập kích thước chữ là 20px.
+4. Loại bỏ gạch chân.
+
+Mục tiêu mở rộng:
+1. Thêm trạng thái hover để màu 
+   chuyển thành fuschia khi con trỏ 
+   chuột di chuyển qua chúng.
+*/
+
+.links-container a{
+    color: dodgerblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links-container a:hover{
+    color: fuchsia;
+}
