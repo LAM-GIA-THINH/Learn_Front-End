@@ -1,0 +1,57 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+    margin:0;
+}
+
+a{
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+a:hover{
+    color: #d4b44c;
+}
+
+a:active{
+    color: #d4b44c;
+}
+/* 
+Thử thách:
+1. Trong index.html, bao nội dung của phần header và các section bằng các thẻ div có class container.
+2. Tạo một bộ chọn và thêm các thuộc tính cần thiết để cố định chiều rộng nội dung và căn giữa nó.
+⚠️ Màu nền phải giữ nguyên chiều rộng toàn màn hình!
+*/  
+
+section{
+    padding: 45px 0;
+}
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
+.main-image{
+    width: 100%;
+}
