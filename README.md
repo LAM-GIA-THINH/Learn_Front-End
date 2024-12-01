@@ -15,5 +15,5 @@ Tổng cộng 40+ chương
 - Chương 12: Thử thách Javascript phần 3 ✅
 - Chương 13: Xây dựng ứng dụng điện thoại ✅
 - Chương 14: Lập trình dễ tiếp cận ✅
-- Chương 15: Tạo trang thư viện ảnh
+- Chương 15: Tạo trang thư viện ảnh ✅
 - Chương n: ... 
