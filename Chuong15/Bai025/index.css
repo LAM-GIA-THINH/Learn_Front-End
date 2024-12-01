@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em;
+}
+
+div {
+    border: 2px solid black;
+    font-size: 2rem;
+    padding: 0.25em;
+    border-radius: 4px;
+    width: 70px;
+    height: 200px;
+    /* overflow: hidden;  */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+}
+
+div, p {
+    margin: 0.125em;
+}
+/* Mặc định của overflow: visible nếu content vượt ngoài cỡ chứa của container
+Giải pháp overflow: hidden nhưng nội dung sẽ dc ẩn đi để giao diện ko bị mất thẩm mỹ 
+overflow: scroll có thể dùng nếu content vượt quá 
+overflow: auto tự động dùng hidden hoặc scroll nếu cần
+overflow-x, overflow-y
+dùng để kiểm soát từng phần
+overflow-x: hidden và overflow-y: visible ko hoạt động cùng nhau*/
