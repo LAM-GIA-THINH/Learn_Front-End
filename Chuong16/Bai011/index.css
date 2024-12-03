@@ -1,5 +1,110 @@
 html, body {
     margin: 0;
     padding: 0;
+    text-align: center;
+    overflow-x: hidden; 
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 20px; 
+    border-bottom: solid 1px #c4c4c4;
+    gap: 250px;
+}
+
+#logo {
+    width: 150px;
+    margin-left: auto; 
+}
+
+.user-avatar {
+    border: none;
+    border-radius: 50%;
+    width: 45px; 
+    height: 45px;
+}
+
+.user-avatar.one {
+    margin-right: auto; 
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 50px 20px 0 20px;     
+    max-width: calc(100% - 260px);
+    margin-bottom: -10px;
+    margin-top: -15px;
+}
+
+.user-avatar.two {
+    margin-left: auto; 
+}
+
+.container {
+    margin-right: auto; 
+    text-align: left;
+    margin-left: 5px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+h4 {
+    margin-top: -16px;
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.post {
+    width: 460px;   
+    height: auto; 
+}
+
+.icon {
+    width: 38px;
+}
+
+.icon:hover {
+    filter: invert(38%) sepia(75%) saturate(5000%) hue-rotate(180deg);
+}
+
+button {
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.icons, .like-amounts, .comment {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -5px;
+    width: 100%; 
+    max-width: 450px; 
+    margin: 0 auto; 
+}
+
+.icons {
+    gap: 10px; /* Add space between icons */
+    padding: 20px 0 0px 0;
+}
+
+.like-amounts, .comment {
+    text-align: left; /* Ensure text aligns to the left */
+    padding: 10px 0;
+}
+
+.comment {
+    font-weight: 500;
+    display: block;          
+    width: 450px;            
+    white-space: nowrap;    
+    overflow: hidden;       
+    text-overflow: ellipsis; 
+    text-align: left;        
+}
