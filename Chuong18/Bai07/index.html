@@ -1,0 +1,50 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+    </head>  
+
+    <body>        
+        <header>
+            <img src="NASA.png">
+        </header>
+        <main>
+            <!-- form ở đây! -->
+<!-- 
+Thách thức:
+1. Thêm các input cho các trường email và mật khẩu. 
+   Nhớ thêm tất cả các thuộc tính cần thiết.
+2. Gán nhãn cho các input và làm cho việc nhấn vào 
+   nhãn sẽ đưa input tương ứng vào chế độ focus.
+ -->
+            <form>
+                <label for="astronautName">Astronaut Name 👩‍🚀</label>
+                <input 
+                    type="text" 
+                    id="astronautName" 
+                    name="astronautName"
+                    placeholder="Neil Armstrong"
+                    >
+                <label for="astronautEmail">Astronaut Email</label>
+                <input 
+                    type="email" 
+                    id="astronautEmail" 
+                    name="astronautEmail"
+                    placeholder="n.armstrong@nasa.com"
+                    >
+                <label for="astronautPassword">Password</label>
+                <input 
+                    type="password" 
+                    id="astronautPassword" 
+                    name="astronautPassword"
+                    placeholder="******"
+                    >
+            </form>
+        </main>
+        <script src="index.js"></script>
+    </body>
+
+</html>
