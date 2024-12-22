@@ -19,5 +19,9 @@ Tổng cộng 40+ chương
 - Chương 16: Thử thách cơ bản về CSS ✅
 - Chương 17: Xây dựng trang web không gian làm việc chung ✅
 - Chương 18: Sự đồng ý cookie khó chịu nhất thế giới ✅
-- Chương 19: Công Cụ Chọn Meme Hoàn Hảo của Pumpkin
+- Chương 19: Công Cụ Chọn Meme Hoàn Hảo của Pumpkin ✅
 - Chương 20: Twimbo: Twitter clone
+- Chương 21: Các dự án JS nhỏ cần thiết
+- Chương 22: Xây dựng một trang web responsive
+
+
