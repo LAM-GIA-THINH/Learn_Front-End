@@ -1,0 +1,31 @@
+.image-container {
+    max-width: 800px;
+    line-height: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.pet-item {
+    flex: 1 220px;
+}
+
+/*
+  Thử thách:
+    - Đặt kích thước chính ban đầu của .expand thành một kích thước lớn hơn 220px
+*/
+
+.expand {
+    flex: 320px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Những cách sử dụng flex-wrap
+flex-basic
+flex-grow */
