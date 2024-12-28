@@ -1,0 +1,43 @@
+body {
+    color: #293241;
+    display: flex;
+    background-color: #faf9f6;
+    margin: 0;
+}
+
+nav {
+    width: 175px;
+    min-height: 100vh;
+    background: #3d5a80;
+}
+
+article {
+    padding: 1.5em;
+    background-color: #e0fbfc;
+}
+
+.headline {
+    font-size: 6vw;
+    text-transform: capitalize;
+    line-height: 1.3;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.menu {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    line-height: 0.5;
+}
+
+/* Đơn vịViewport
+vh - viewport height
+vw - viewport width 
+1vh bằng 1% chiều cao của viewport 
+1vw bằng 1% chiều rộng của viewport */

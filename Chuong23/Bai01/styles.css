@@ -1,0 +1,60 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #404040;
+    margin: 0;
+}
+
+/* =================
+    Typography 
+   ================= */
+
+h1 {
+    font-weight: 400;
+}
+
+.beta-text { 
+    font-weight: 900;
+}
+
+.subheading {
+    color: #575757;
+    font-weight: 900;
+}
+
+/* =================
+    Intro
+   ================= */
+
+/* 
+  Thử thách: Định kiểu cho phần .intro
+    - Chuyển thành một container flex; 
+      hiển thị nội dung theo cột
+    - Đặt chiều cao tối thiểu là 250px
+    - Căn chỉnh nội dung ở giữa theo chiều ngang
+    - Căn giữa nội dung theo chiều dọc
+    - Loại bỏ khoảng trống xung quanh các cạnh của trang
+*/
+
+.intro { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 250px;
+    text-align: center;
+    color: #fff;
+    background-color: #9480e4;
+}
+
+/* ====================
+    Main content
+   ==================== */
+
+
+/* =================
+    Form
+   ================= */
+   
+
+/* =================
+    Media queries 
+   ================= */

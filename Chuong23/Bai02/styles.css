@@ -1,0 +1,79 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #404040;
+    margin: 0;
+}
+
+/* =================
+    Typography 
+   ================= */
+
+h1 {
+    font-weight: 400;
+}
+
+.beta-text { 
+    font-weight: 900;
+}
+
+.subheading {
+    color: #575757;
+    font-weight: 900;
+}
+
+/* =================
+    Flex containers
+   ================= */
+
+.intro,
+.main-content {
+    display: flex;
+    flex-direction: column;    
+}
+
+/* =================
+    Intro
+   ================= */
+
+.intro { 
+    justify-content: center;
+    min-height: 250px;
+    text-align: center;
+    color: #fff;
+    background-color: #9480e4;
+}
+
+/* ====================
+    Main content
+   ==================== */
+   
+/* 
+  Thử thách: Định kiểu cho main-content
+    - Sử dụng flexbox để căn giữa theo chiều ngang tất cả các mục bên trong 
+      .main-content. Văn bản <p> vẫn giữ căn trái.
+    - Sử dụng em để thêm padding phía trên cho .main-content bằng 40px 
+      và padding bên trái và bên phải bằng 32px.
+    - Đặt chiều rộng của .img-main là 120px và hiển thị nó dưới dạng hình ảnh bo tròn.
+*/
+
+.main-content {
+    align-items: center;
+    
+    padding-top: 2.5em; /* 40 / 16 = 2.5 */
+    padding-left: 2em; /* 32 / 16 = 2 */
+    padding-right: 2em;
+}
+
+.img-main {
+    width: 120px;
+    border-radius: 50%;
+}
+
+/* =================
+    Form
+   ================= */
+   
+
+/* =================
+    Media queries 
+   ================= */

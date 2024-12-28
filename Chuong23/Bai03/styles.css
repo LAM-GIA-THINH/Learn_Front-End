@@ -1,0 +1,94 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #404040;
+    margin: 0;
+}
+
+/* =================
+    Typography 
+   ================= */
+   
+/* 
+  Thử thách: Đặt kiểu dáng ban đầu cho văn bản
+    - Đặt h1 với giá trị font-size tương đối bằng 40px
+    - Áp dụng bóng chữ cho h1 với giá trị màu #816fca
+    - Đặt h2 với giá trị font-size tương đối bằng 36px
+    - Cấp cho h2 giá trị margin trên và dưới bằng 6px (đơn vị em)
+    - Đặt đoạn văn (p) với giá trị font-size tương đối bằng 18px
+    - Đặt line-height của p bằng 1.35 lần giá trị font-size của nó
+    - Cấp cho .subheading giá trị margin dưới (bottom margin) bằng một nửa giá trị font-size của nó (đơn vị em)
+
+*/
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-shadow: 0 2px #816fca;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin: 0.167em 0;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.35;
+}
+
+.beta-text { 
+    font-weight: 900;
+}
+
+.subheading {
+    color: #575757;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}
+
+/* =================
+    Flex containers
+   ================= */
+
+.intro,
+.main-content {
+    display: flex;
+    flex-direction: column;    
+}
+
+/* =================
+    Intro
+   ================= */
+
+.intro { 
+    justify-content: center;
+    min-height: 250px;
+    text-align: center;
+    color: #fff;
+    background-color: #9480e4;
+}
+
+/* ====================
+    Main content
+   ==================== */
+   
+.main-content {
+    align-items: center;
+    padding-top: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.img-main {
+    width: 120px;
+    border-radius: 50%;
+}
+
+/* =================
+    Form
+   ================= */
+   
+
+/* =================
+    Media queries 
+   ================= */
