@@ -23,7 +23,7 @@ Tổng cộng 40+ chương
 - Chương 20: Twimbo: Twitter clone ✅
 - Chương 21: Các dự án JS nhỏ cần thiết ✅
 - Chương 22: Xây dựng một trang web responsive ✅
-- Chương 23: Xây dựng một trang giới thiệu sản phẩm
+- Chương 23: Xây dựng một trang giới thiệu sản phẩm ✅
 - Chương 24: Xây dựng bố cục responsive với CSS Grid
 
 

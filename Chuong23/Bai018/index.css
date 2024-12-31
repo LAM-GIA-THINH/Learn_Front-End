@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;    
+}
+/* Dòng CSS này đặt `box-sizing: border-box` cho tất cả các phần tử và 
+pseudo-elements (`::before`, `::after`), giúp tính kích thước hộp bao gồm
+cả `padding` và `border`. Điều này tránh lỗi tính toán kích thước và làm
+giao diện nhất quán, dễ quản lý hơn. */
+
+body {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    background-color: #c5d8ea;
+    margin: 0;
+}
+
+.promo-card {
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    border: solid 5px #5035ff;
+
+    background-color: white;
+    box-shadow: 0 2px 10px #8aa7c1;
+    border-radius: 8px;
+    margin: 2em auto 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #9a3412;
+    margin: 0 0 1em;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin: 0 0 1.5em;
+}
