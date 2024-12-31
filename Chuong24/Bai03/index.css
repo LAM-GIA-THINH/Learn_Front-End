@@ -1,0 +1,23 @@
+html, body {
+    margin: 1em;
+    padding: 0;
+}
+/* "fr" là viết tắt của fraction (phân số), và đơn vị fr biểu thị một phần của không gian có sẵn trong lưới (grid). */
+/* 2fr: Cột đầu tiên chiếm 2 phần (fractions) của không gian khả dụng.
+1fr: Các cột thứ hai, ba, và bốn mỗi cột chiếm 1 phần của không gian khả dụng. */
+.grid-container {
+    display: grid;
+    gap: .5em;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    border: 2px solid black;
+} 
+
+.grid-item {
+    background-color: lightgreen;
+    padding: .2em;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    border: 1px solid #999;
+    } 
+    

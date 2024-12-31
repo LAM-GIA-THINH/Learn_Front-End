@@ -1,0 +1,23 @@
+html, body {
+    margin: 1em;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid; /* Sử dụng Grid Layout để sắp xếp các phần tử con. */
+    grid-template-columns: 5em 10em; /* Tạo 2 cột: cột đầu rộng 5em, cột sau rộng 10em. */    
+    /* row-gap: .3em;
+    column-gap: .6em; */
+    gap: .5em; /* Khoảng cách giữa các hàng và cột là 0.5em. */
+    border: 2px solid black; /* Thêm viền đen dày 2px xung quanh container. */
+}
+
+.grid-item {
+    background-color: lightgreen;
+    padding: .2em;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    border: 1px solid #999;
+}
+    

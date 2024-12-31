@@ -1,0 +1,25 @@
+html, body {
+    margin: 1em;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    gap: .5em;
+    grid-template-columns: repeat(3, 1fr) 30px 30px repeat(3, 3fr);
+    /* repeat(lặp lại bao nhiêu lần, lặp lại cái gì) */
+    /* 3 cột có chiều rộng bằng nhau, mỗi cột chiếm 1fr của không gian còn lại.
+    2 cột có chiều rộng cố định là 30px.
+    3 cột có chiều rộng lớn hơn, mỗi cột chiếm 3fr của không gian còn lại. */
+    border: 2px solid black;
+}
+
+.grid-item {
+    background-color: skyblue;
+    padding: .2em;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    border: 1px solid #999;
+    }  
+    

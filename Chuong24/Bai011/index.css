@@ -1,0 +1,66 @@
+html, body {
+    margin: 1em;
+    padding: 0;
+}
+
+/* 
+Thử thách:
+   1. Hoàn thành việc ánh xạ các phần tử này 
+      sử dụng grid-areas của chúng.
+grid-template: repeat(5, 1fr) / repeat(12, 1fr);: Tạo 5 hàng và 12 cột, mỗi cột và hàng có kích thước bằng nhau (1fr).
+grid-template-areas:: Đặt tên cho các vùng lưới:
+Dòng 1: nav chiếm 2 cột đầu, head chiếm 10 cột tiếp theo.
+Dòng 2-4: nav chiếm 2 cột đầu, main chiếm 7 cột, aside chiếm 3 cột.
+Dòng 5: nav chiếm 2 cột đầu, foot chiếm 10 cột còn lại.
+*/
+
+.grid-container {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(12, 1fr);
+    grid-template-areas: 
+        "nav nav head head head head head head head head head head"
+        "nav nav main main main main main main main aside aside aside"
+        "nav nav main main main main main main main aside aside aside"
+        "nav nav main main main main main main main aside aside aside"
+        "nav nav foot foot foot foot foot foot foot foot foot foot";
+}
+
+.grid-item {
+    padding: .5em;
+    font-size: 2em;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+header {
+    grid-area: head;
+    background-color: palegoldenrod;
+}
+
+nav {
+    grid-area: nav;
+    background-color: lightcoral;
+}
+
+main {
+    grid-area: main;
+    background-color: lightgreen;
+}
+
+aside {
+    grid-area: aside;
+    background-color: lightgray;
+}
+
+footer {
+    grid-area: foot;
+    background-color: gold;
+}
+    
+/* 
+3 cách để đặt các phần tử vào lưới
+grid-row/grid-column và từ khóa "span"
+grid-row/grid-column và số dòng
+grid-template-areas, grid-area */
