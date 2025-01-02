@@ -27,5 +27,8 @@ Tổng cộng 40+ chương
 - Chương 24: Xây dựng bố cục responsive với CSS Grid ✅
 - Chương 25: Code review ✅
 - Chương 26: Github ✅
+- Chương 27: Bored Bot ✅
+- Chương 28: URLs, REST & BlogSpace
+- Chương 29: Async Javascript & War
 
 
