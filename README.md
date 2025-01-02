@@ -26,6 +26,6 @@ Tổng cộng 40+ chương
 - Chương 23: Xây dựng một trang giới thiệu sản phẩm ✅
 - Chương 24: Xây dựng bố cục responsive với CSS Grid ✅
 - Chương 25: Code review ✅
-- Chương 26: Github
+- Chương 26: Github ✅
 
 
