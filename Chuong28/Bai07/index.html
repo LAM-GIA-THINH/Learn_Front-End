@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav>
+            <h3>BlogSpace</h3>
+        </nav>
+        
+<!-- 
+Thử thách:
+        
+Tạo một biểu mẫu với 2 ô nhập liệu (mỗi ô có một nhãn đi kèm), 
+một ô cho tiêu đề bài viết (một ô nhập văn bản) và một ô cho nội dung bài viết
+(một phần tử textarea). Sau đó thêm một nút vào biểu mẫu.
+        
+Đừng lo lắng về việc tạo kiểu ngay lúc này.
+-->
+
+        <form>
+            <label for="post-title">Title:</label>
+            <input id="post-title" type="text" />
+            <label for="post-body">Body:</label>
+            <textarea id="post-body"></textarea>
+            <button>Post</button>
+        </form>
+        <div id="blog-list"></div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: beige;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav > h3 {
+    margin: 0;
+}
+
+#blog-list {
+    padding: 10px;
+}
+
+form {
+    padding: 60px 10px 10px;
+    display: grid;
+    background-color: lightblue;
+}
+
+input#post-title, textarea#post-body {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* 
+Thử thách: biểu mẫu của chúng ta trông rất xấu! Làm cho nó bớt xấu đi :P
+
+* Sắp xếp các phần tử theo cách đẹp hơn, có thể theo chiều dọc. 
+  (CSS Grid hoặc Flexbox sẽ làm việc này dễ dàng)
+* Thêm màu nền để phân biệt nó với các bài viết
+* Tạo kiểu cho nút theo cách bạn muốn.
+*/

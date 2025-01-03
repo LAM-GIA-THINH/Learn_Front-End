@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chọn phối màu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Chọn phối màu từ Màu gốc</h1>
+
+    <!-- Color Picker -->
+    <label for="base-color">Chọn màu gốc: </label>
+    <input type="color" id="base-color" name="base-color" value="#ff0000">
+
+    <!-- Color Mode Dropdown -->
+    <label for="color-mode">Chế độ phối màu: </label>
+    <select id="color-mode" name="color-mode">
+        <option value="monochrome">Monochrome</option>
+        <option value="analogic">Analogic</option>
+        <option value="complement">Complement</option>
+        <option value="triad">Triad</option>
+        <option value="quadrad">Quadrad</option>
+    </select>
+
+    <!-- Button to Get Palette -->
+    <button id="get-palette">Lấy phối màu</button>
+
+    <!-- Palette Display -->
+    <div id="palette-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
