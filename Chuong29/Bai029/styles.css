@@ -1,0 +1,111 @@
+/* Định dạng cho trang tìm kiếm */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #218838;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#results div {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+#results img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Định dạng cho trang danh sách theo dõi */
+#watchlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#watchlist div {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+#watchlist img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#goToWatchlistBtn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Centering the button */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#goToWatchlistBtn:hover {
+    background-color: #218838;
+}
+
+#goToSearchBtn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    /* Centering the button */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#goToSearchBtn:hover {
+    background-color: #218838;
+}
