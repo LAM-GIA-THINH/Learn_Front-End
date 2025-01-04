@@ -29,6 +29,8 @@ Tổng cộng 40+ chương
 - Chương 26: Github ✅
 - Chương 27: Bored Bot ✅
 - Chương 28: URLs, REST & BlogSpace ✅
-- Chương 29: Async Javascript & War
+- Chương 29: Async Javascript & War ✅
+- Chương 30: Promise Rejection & Capstone
+- Chương 31: Intro thiết kế UI
 
 
