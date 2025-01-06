@@ -31,6 +31,10 @@ Tổng cộng 40+ chương
 - Chương 28: URLs, REST & BlogSpace ✅
 - Chương 29: Async Javascript & War ✅
 - Chương 30: Promise Rejection & Capstone ✅
-- Chương 31: Intro thiết kế UI
+- Chương 31: Intro thiết kế UI ✅
+- Chương 32: Xây dựng layout đơn giản 
+- Chương 33: Refactor một dự án
+- Chương 34: Các trang tĩnh
+
 
 

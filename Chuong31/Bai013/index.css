@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #014BCB;
+    display: grid;
+    grid-template-columns: 10% auto;
+    height: 100vh;
+    color: white;
+    font-family: 'Nunito';
+    grid-gap: .5em;
+}
+sidebar {
+    background: #1D3154;
+}
+.content {
+    background: #6C22FF;
+    padding: .5em;
+    width: 50%;
+    margin-right: 2em;
+    border-radius: .8em;
+}
+h1 {
+    margin-left: 1em;
+    font-size: 1em;
+}
+h3 {
+    margin: 0;
+    font-size: .9em;
+    color: #FF69F5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+li {
+    margin-bottom: .5em;
+    font-size: .8em;
+}
+span {
+    float: right;
+}
+
+/*  
+    Các chỉnh sửa của bạn bên dưới
+    
+    Vui lòng giữ nguyên màu nền
+    và màu nền của thanh bên.
+    
+*/
+
+body {
+    grid-gap: 2em;    /* Cải thiện khoảng trắng */
+}
+
+.content {
+    background: #0044B9;  /* Cải thiện màu/ tương phản */
+    padding: 1.5em;     /* Cải thiện khoảng trắng */
+}
+
+h1 {
+    margin-left: 0;  /* Cải thiện căn chỉnh */
+    font-size: 2.3em;   /* Cải thiện Cấu trúc thị giác */
+}
