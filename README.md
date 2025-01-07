@@ -34,7 +34,10 @@ Tổng cộng 40+ chương
 - Chương 31: Intro thiết kế UI ✅
 - Chương 32: Xây dựng layout đơn giản ✅
 - Chương 33: Refactor một dự án ✅
-- Chương 34: Các trang tĩnh
+- Chương 34: Các trang tĩnh ✅
+- Chương 35: ...
+- Chương 36: ...
+- Chương 37: ...
 
 
 
