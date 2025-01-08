@@ -35,9 +35,10 @@ Tổng cộng 40+ chương
 - Chương 32: Xây dựng layout đơn giản ✅
 - Chương 33: Refactor một dự án ✅
 - Chương 34: Các trang tĩnh ✅
-- Chương 35: ...
-- Chương 36: ...
-- Chương 37: ...
+- Chương 35: React dựa trên dữ liệu
+- Chương 36: Trạng thái trong React
+- Chương 37: Tác dụng phụ
+- Chương 38: ...
 
 
 
