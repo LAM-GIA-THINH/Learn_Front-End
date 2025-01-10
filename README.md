@@ -36,7 +36,7 @@ Tổng cộng 40+ chương
 - Chương 33: Refactor một dự án ✅
 - Chương 34: Các trang tĩnh ✅
 - Chương 35: React dựa trên dữ liệu ✅
-- Chương 36: Trạng thái trong React
+- Chương 36: Trạng thái trong React ✅
 - Chương 37: Tác dụng phụ
 - Chương 38: ...
 
