@@ -37,8 +37,9 @@ Tổng cộng 40+ chương
 - Chương 34: Các trang tĩnh ✅
 - Chương 35: React dựa trên dữ liệu ✅
 - Chương 36: Trạng thái trong React ✅
-- Chương 37: Tác dụng phụ
-- Chương 38: ...
-
+- Chương 37: Tác dụng phụ ✅
+- Chương 38: Capstone Project #1 - Tenzies
+- Chương 39: Capstone Project #2 - Assembly: Endgame
+- Chương 40: ...
 
 

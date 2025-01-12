@@ -6,7 +6,7 @@ export default function App(props) {
     
     React.useEffect(function() {
         console.log("Effect ran")
-        fetch("https://swapi.py4e.com/api//people/1")
+        fetch("https://swapi.py4e.com/api/people/1")
             .then(res => res.json())
             // .then(data => setStarWarsData(data))
     })
