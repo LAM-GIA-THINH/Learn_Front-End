@@ -41,6 +41,7 @@ Tổng cộng 40+ chương
 - Chương 38: Capstone Project #1 - Tenzies ✅
 - Chương 39: Capstone Project #2 - Assembly: Endgame ✅
 - Chương 40: Tính tái sử dụng ✅
-- Chương 41: React Router 6
+- Chương 41: React Router 6 ✅
+- Chương 42: Hiệu năng
 
 
