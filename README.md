@@ -43,7 +43,8 @@ Tổng cộng 40+ chương
 - Chương 40: Tính tái sử dụng ✅
 - Chương 41: React Router 6 ✅
 - Chương 42: Hiệu năng ✅
-- Chương 43: Thử thách Javascript
-- Chương 44: Thử thách React
+- Chương 43: Phỏng vấn front-end ✅
+- Chương 44: Thử thách Javascript
+- Chương 45: Thử thách React
 
 
