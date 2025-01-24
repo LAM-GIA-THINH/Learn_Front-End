@@ -45,6 +45,6 @@ Tổng cộng 40+ chương
 - Chương 42: Hiệu năng ✅
 - Chương 43: Phỏng vấn front-end ✅
 - Chương 44: Thử thách Javascript ✅
-- Chương 45: Thử thách React
+- Chương 45: Thử thách React ✅
 
 
