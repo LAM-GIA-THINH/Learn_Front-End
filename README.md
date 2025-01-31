@@ -33,10 +33,11 @@ Tổng cộng 40+ chương
 - Chương 30: Promise Rejection & Capstone ✅
 - Chương bổ sung 1: [Javascript Advanced](https://github.com/LAM-GIA-THINH/Learn-Advance-Javascript) ✅
 - Chương bổ sung 2: [Typescript](https://github.com/LAM-GIA-THINH/Learn-Typescript) ✅
+- Chương bổ sung 3: [Unit Testing](https://github.com/LAM-GIA-THINH/Learn-Unit-Testing)
 - Chương 31: Intro thiết kế UI ✅
 - Chương 32: Xây dựng layout đơn giản ✅
 - Chương 33: Refactor một dự án ✅
-- Chương bổ sung 3: [SASS](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb) ✅
+- Chương bổ sung 4: [SASS](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb) ✅
 - Chương 34: Các trang tĩnh ✅
 - Chương 35: React dựa trên dữ liệu ✅
 - Chương 36: Trạng thái trong React ✅
@@ -46,7 +47,7 @@ Tổng cộng 40+ chương
 - Chương 40: Tính tái sử dụng ✅
 - Chương 41: React Router 6 ✅
 - Chương 42: Hiệu năng ✅
-- Chương bổ sung 4: [React testing libary](https://youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&si=-pYXKTsBPH5ZSjso) ✅
+- Chương bổ sung 5: [React testing libary](https://youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&si=-pYXKTsBPH5ZSjso) ✅
 - Chương 43: Phỏng vấn front-end ✅
 - Chương 44: Thử thách Javascript ✅
 - Chương 45: Thử thách React ✅
