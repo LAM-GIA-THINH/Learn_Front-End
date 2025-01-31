@@ -30,9 +30,9 @@ Tổng cộng 40+ chương
 - Chương 27: Bored Bot ✅
 - Chương 28: URLs, REST & BlogSpace ✅
 - Chương 29: Async Javascript & War ✅
+- Chương 30: Promise Rejection & Capstone ✅
 - Chương bổ sung 1: [Javascript Advanced](https://github.com/LAM-GIA-THINH/Learn-Advance-Javascript) ✅
 - Chương bổ sung 2: [Typescript](https://github.com/LAM-GIA-THINH/Learn-Typescript) ✅
-- Chương 30: Promise Rejection & Capstone ✅
 - Chương 31: Intro thiết kế UI ✅
 - Chương 32: Xây dựng layout đơn giản ✅
 - Chương 33: Refactor một dự án ✅
