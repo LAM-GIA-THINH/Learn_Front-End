@@ -18,7 +18,7 @@ Tổng cộng 40+ chương
 - Chương 15: Tạo trang thư viện ảnh ✅
 - Chương 16: Thử thách cơ bản về CSS ✅
 - Chương 17: Xây dựng trang web không gian làm việc chung ✅
-- Chương 18: Sự đồng ý cookie khó chịu nhất thế giới ✅
+- Chương 18: Cookie khó chịu nhất thế giới ✅
 - Chương 19: Công Cụ Chọn Meme Hoàn Hảo của Pumpkin ✅
 - Chương 20: Twimbo: Twitter clone ✅
 - Chương 21: Các dự án JS nhỏ cần thiết ✅
@@ -33,20 +33,21 @@ Tổng cộng 40+ chương
 - Chương 30: Promise Rejection & Capstone ✅
 - Chương bổ sung 1: [Javascript Advanced](https://github.com/LAM-GIA-THINH/Learn-Advance-Javascript) ✅
 - Chương bổ sung 2: [Typescript](https://github.com/LAM-GIA-THINH/Learn-Typescript) ✅
-- Chương bổ sung 3: [Unit Testing](https://github.com/LAM-GIA-THINH/Learn-Unit-Testing)
+- Chương bổ sung 3: [Unit Testing](https://github.com/LAM-GIA-THINH/Learn-Unit-Testing) ✅
 - Chương 31: Intro thiết kế UI ✅
 - Chương 32: Xây dựng layout đơn giản ✅
 - Chương 33: Refactor một dự án ✅
 - Chương bổ sung 4: [SASS](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb) ✅
 - Chương 34: Các trang tĩnh ✅
 - Chương 35: React dựa trên dữ liệu ✅
-- Chương 36: Trạng thái trong React ✅
+- Chương 36: State trong React ✅
 - Chương 37: Tác dụng phụ ✅
 - Chương 38: Capstone Project #1 - Tenzies ✅
 - Chương 39: Capstone Project #2 - Assembly: Endgame ✅
 - Chương 40: Tính tái sử dụng ✅
 - Chương 41: React Router 6 ✅
 - Chương 42: Hiệu năng ✅
+- Chương bổ sung 5: [React Style Component](https://github.com/LAM-GIA-THINH/Learn-Styled-Components) ✅
 - Chương bổ sung 5: [React testing libary](https://youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&si=-pYXKTsBPH5ZSjso) ✅
 - Chương 43: Phỏng vấn front-end ✅
 - Chương 44: Thử thách Javascript ✅
