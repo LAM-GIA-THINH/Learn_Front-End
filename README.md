@@ -48,7 +48,7 @@ Tổng cộng 40+ chương
 - Chương 41: React Router 6 ✅
 - Chương 42: Hiệu năng ✅
 - Chương bổ sung 5: [React Style Component](https://github.com/LAM-GIA-THINH/Learn-Styled-Components) ✅
-- Chương bổ sung 5: [React testing libary](https://youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&si=-pYXKTsBPH5ZSjso) ✅
+- Chương bổ sung 6: [React testing libary](https://youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&si=-pYXKTsBPH5ZSjso) ✅
 - Chương 43: Phỏng vấn front-end ✅
 - Chương 44: Thử thách Javascript ✅
 - Chương 45: Thử thách React ✅
